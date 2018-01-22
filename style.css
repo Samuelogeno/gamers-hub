@@ -1,0 +1,95 @@
+/*type selectors*/
+body{
+
+	margin:0;
+	padding:0;
+	font-family:arial,helvetica,sans-serif;
+}
+h1{
+	margin:0;
+}
+h2,h3,h4,h5,h6{
+	color:brown;
+}
+
+
+
+
+/*class selctors*/
+.container{
+	width:50em;
+	margin:auto;
+}
+.nav{
+	background-color:grey;
+	padding:0em 2em;
+	border:2px green solid;
+	height:8em;
+
+}
+.intro{
+	font-size:1.2em;
+	color:green;
+}
+
+.nav ul{
+	
+	
+	margin-top:0;
+	height:3em;
+	padding:2em;
+}
+
+
+}
+.HUB{
+	color:red;
+}
+
+/*id selectors*/
+#header,#footer{
+	background-color: black;
+	color:white;
+	padding:2em;
+	margin-bottom:0;
+}
+#main{
+	margin:2em 3em;
+	background-image:url(../startUp/img/red.jpg);
+	background-repeat:no-repeat;
+}
+/*universal selectors*/
+/*
+*{
+	border:4px grey dotted;
+	margin:0;
+	padding:0;
+}*/
+/*descendant selectors*/
+.nav li{
+	list-style:none;
+	
+	text-transform: uppercase;
+	margin-top:0;
+	float: left;
+	padding:1em;
+	width:9em;
+}
+/*child selectors*/
+.nav li  a{
+	text-decoration:none;
+}
+
+/*adjacent sibling selectors*/
+h3+h4{
+	background-color:green;
+}
+h3+p{
+	background-color:grey;
+}
+/*link pseudo-class selectors*/
+a:link{color:green;}
+a:visited{color:orange;}
+a:focus{color:black;}
+a:hover{color:lime;}
+a:active{color:red;}
